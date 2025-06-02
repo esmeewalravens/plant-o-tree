@@ -1,0 +1,111 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #d2d67c;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 6em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.plantpot {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+#plantJe {
+    margin-bottom: -4em;
+    margin-top: 4em;
+    width: 30em;
+    height: 35em;
+}
+
+#plantenPot {
+    width: 30em;
+    height: 15em;
+}
+
+.water {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+
+.buttons {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btnearth {
+    background-image: url('/images/buttons/zero/give_earth_button.png');
+    border: black;
+    width: 12vw;
+    height: 8em;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.btnearth:hover {
+    background-image: url('/images/buttons/hover/hover_earth.png');
+    transition: 200ms all ease-in;
+}
+
+.btnearth:active {
+    background-image: url('/images/buttons/active/active_earth.png');
+    transition: 250ms ease-out;
+}
+
+.btnwater {
+    background-image: url('/images/buttons/zero/give_water_button.png');
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    width: 12vw;
+    height: 8em;
+}
+
+.btnwater:hover {
+    background-image: url('/images/buttons/hover/hover_water.png');
+    transition: 200ms all ease-in;
+}
+
+.btnwater:active {
+    background-image: url('/images/buttons/active/active_water.png');
+    transition: 250ms ease-out;
+}
+
+.btnsun {
+    background-image: url('/images/buttons/zero/give_sun_button.png');
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    width: 12vw;
+    height: 8em;
+}
+.btnsun:hover {
+    background-image: url('/images/buttons/hover/hover_sun.png');
+    transition: 200ms all ease-in;
+}
+.btnsun:active {
+    background-image: url('/images/buttons/active/active_sun.png');
+    transition: 250ms ease-out;
+}
