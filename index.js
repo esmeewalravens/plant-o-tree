@@ -1,8 +1,5 @@
 console.log("Plant 'O Tree")
 
-const btnEarth = document.getElementById('earthzero').style.display = "block";
-const btnWater = document.getElementById('waterzero').style.display = "block";
-const btnWater = document.getElementById('sunzero').style.display = "block";
 let earthClickCount = 0; //click teller bij aarde button
 let waterClickCount = 0; // click teller bij water button
 let sunClickCount = 0; // click teller bij sun button
