@@ -56,7 +56,7 @@ p {
 }
 
 .btnearth {
-    background-image: url('/images/buttons/zero/give_earth_button.png');
+    background-image: url('../images/buttons/zero/give_earth_button.png');
     border: black;
     width: 12vw;
     height: 8em;
@@ -65,17 +65,17 @@ p {
 }
 
 .btnearth:hover {
-    background-image: url('/images/buttons/hover/hover_earth.png');
+    background-image: url('../images/buttons/hover/hover_earth.png');
     transition: 200ms all ease-in;
 }
 
 .btnearth:active {
-    background-image: url('/images/buttons/active/active_earth.png');
+    background-image: url('../images/buttons/active/active_earth.png');
     transition: 250ms ease-out;
 }
 
 .btnwater {
-    background-image: url('/images/buttons/zero/give_water_button.png');
+    background-image: url('../images/buttons/zero/give_water_button.png');
     border: none;
     background-size: cover;
     cursor: pointer;
@@ -84,17 +84,17 @@ p {
 }
 
 .btnwater:hover {
-    background-image: url('/images/buttons/hover/hover_water.png');
+    background-image: url('../images/buttons/hover/hover_water.png');
     transition: 200ms all ease-in;
 }
 
 .btnwater:active {
-    background-image: url('/images/buttons/active/active_water.png');
+    background-image: url('../images/buttons/active/active_water.png');
     transition: 250ms ease-out;
 }
 
 .btnsun {
-    background-image: url('/images/buttons/zero/give_sun_button.png');
+    background-image: url('../images/buttons/zero/give_sun_button.png');
     border: none;
     background-size: cover;
     cursor: pointer;
@@ -102,10 +102,10 @@ p {
     height: 8em;
 }
 .btnsun:hover {
-    background-image: url('/images/buttons/hover/hover_sun.png');
+    background-image: url('../images/buttons/hover/hover_sun.png');
     transition: 200ms all ease-in;
 }
 .btnsun:active {
-    background-image: url('/images/buttons/active/active_sun.png');
+    background-image: url('../images/buttons/active/active_sun.png');
     transition: 250ms ease-out;
 }
